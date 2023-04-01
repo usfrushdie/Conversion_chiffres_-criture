@@ -20,29 +20,7 @@ Integrating into your own program
 
     Copy the source files "convert.c" and "convert.h" into your C project
     Include the "convert.h" file in your source code
-    Call the "convertNumberToWords" function with the integer to be converted as an argument. This function returns a string containing the conversion of the number into words. For example:
-
-
-#include<stdio.h>
-#include "chaine2.h"
-
-char all[1000];
-
-void menu()
-    {
-    char T[30],P1[15],P2[15];
-		lecture_chaine(T);
-		ent_reel(T,P1,P2);
-		affichage_chaine(P1,P2);
-		char_to_num(P1);
-		char_to_num_v(P2);
-    printf("\nLe nombre en lettres est : %s ",all);
-	}
-
-int main ()
-    {
-        menu();
-    }
+    Call the "convertNumberToWords" function with the integer to be converted as an argument. This function returns a string containing the conversion of the number into words.
 
 Limitations of the program
 
