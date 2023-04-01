@@ -22,7 +22,6 @@ Integrating into your own program
     Include the "convert.h" file in your source code
     Call the "convertNumberToWords" function with the integer to be converted as an argument. This function returns a string containing the conversion of the number into words. For example:
 
-c
 
 #include<stdio.h>
 #include "chaine2.h"
